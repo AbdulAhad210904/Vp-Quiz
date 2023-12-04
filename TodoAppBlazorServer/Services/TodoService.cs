@@ -8,7 +8,9 @@ public class TodoService : ITodoService
     {
         _todoItems = new List<TodoItem> {
             new TodoItem("Wash Clothes"),
-            new TodoItem("Clean Desk")
+            new TodoItem("Clean Desk"),
+            new TodoItem("CLean Room"),
+            new TodoItem("Complete Assignment")
         };
     }
 
